@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/createEvent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createEvent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"/>
+
+    <RadioGroup
+        android:id="@+id/radioEventType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createEvent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioLunch"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioPub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioPub" />
+
+        <RadioButton
+            android:id="@+id/radioClub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioClub" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioEventType"
+        android:hint="@string/inputStart" />
+
+    <EditText
+        android:id="@+id/inputEnd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputStart"
+        android:hint="@string/inputEnd" />
+
+    <EditText
+        android:id="@+id/inputEventName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputEnd"
+        android:hint="@string/inputEventName" />
+
+    //UPPREPA
+
+    <EditText
+        android:id="@+id/inputEventInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputEventName"
+        android:hint="@string/inputEventInfo"/>
+
+    //INTRADE
+
+    <Button
+        android:id="@+id/createNewEventButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/createNewEventButton" />
+</RelativeLayout>

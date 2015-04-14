@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/currentUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currentUsername"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/yourUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourUsername"
+        android:layout_below="@id/currentUsername"/>
+
+    <TextView
+        android:id="@+id/currentEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currentEmail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/yourUsername"/>
+
+    <TextView
+        android:id="@+id/yourEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourEmail"
+        android:layout_below="@id/currentEmail"/>
+
+    <TextView
+        android:id="@+id/currentGroups"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currentGroups"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/yourEmail"/>
+
+    <TextView
+        android:id="@+id/yourGroups"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourGroups"
+        android:layout_below="@+id/currentGroups"/>
+
+    <TextView
+        android:id="@+id/changePassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changePassword"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/yourGroups"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/changePasswordField1"
+        android:id="@+id/changePasswordField1"
+        android:layout_below="@id/changePassword"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/changePasswordField2"
+        android:id="@+id/changePasswordField2"
+        android:layout_below="@id/changePasswordField1"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/changePasswordField3"
+        android:id="@+id/changePasswordField3"
+        android:layout_below="@id/changePasswordField2"/>
+
+    <Button
+        android:id="@+id/newPasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/changePasswordField3"
+        android:text="@string/newPasswordButton" />
+
+</RelativeLayout>

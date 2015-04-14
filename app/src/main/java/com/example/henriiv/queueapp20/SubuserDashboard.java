@@ -1,0 +1,51 @@
+package com.example.henriiv.queueapp20;
+
+import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+
+
+public class SubuserDashboard extends ActionBarActivity implements OnClickListener {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_admindashboard);
+
+        View v = findViewById(R.id.createEventButton);
+        v.setOnClickListener(this);
+        View w = findViewById(R.id.manageEventButton);
+        w.setOnClickListener(this);
+        View a = findViewById(R.id.manageMyAccount);
+        a.setOnClickListener(this);
+        View y = findViewById(R.id.logoutButton);
+        y.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View arg0) {
+        if(arg0.getId() == R.id.createEventButton){
+            Intent intent = new Intent(this,CreateEvent.class);
+
+            this.startActivity(intent);
+        }
+        if(arg0.getId() == R.id.manageEventButton){
+            Intent intent = new Intent(this,EventList.class);
+
+            this.startActivity(intent);
+        }
+        if(arg0.getId() == R.id.manageMyAccount){
+            Intent intent = new Intent(this,MyAccount.class);
+
+            this.startActivity(intent);
+        }
+        if(arg0.getId() == R.id.logoutButton){
+            Intent intent = new Intent(this,Start.class);
+
+            this.startActivity(intent);
+        }
+    }
+}

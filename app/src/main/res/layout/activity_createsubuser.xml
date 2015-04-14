@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/createSubuser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createSubuser"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/inputNameSubuser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createSubuser"
+        android:hint="@string/inputNameSubuser" />
+
+    <EditText
+        android:id="@+id/inputPosition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputNameSubuser"
+        android:hint="@string/inputPosition" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPosition"
+        android:hint="@string/inputEmail" />
+
+    <Button
+        android:id="@+id/createNewSubuserButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/createNewSubuserButton" />
+</RelativeLayout>
