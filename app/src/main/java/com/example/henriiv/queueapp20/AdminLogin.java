@@ -1,5 +1,9 @@
 package com.example.henriiv.queueapp20;
 
+//Klassen där admins och subusers loggar in. De kan även gå till "Glömt lösenord" (klass ForgottenPassword).
+//Användaren får fylla i sitt användarnamn och lösenord, vilket kollas mot databasen. Stämmer de loggas de in,
+//annars dirigeras de om till ForgottenPassword (efter att ha angett fel lösen 10 ggr) och systemadministratörerna larmas.
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

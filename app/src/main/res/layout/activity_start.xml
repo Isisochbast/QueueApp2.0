@@ -7,6 +7,25 @@
     android:weightSum="1">
 
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/knappKlubb_text"
+        android:id="@+id/knappKlubb"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/knappPub_text"
+        android:id="@+id/knappPub"
+        android:layout_below="@+id/knappKlubb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+
+    <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/adminLogin"

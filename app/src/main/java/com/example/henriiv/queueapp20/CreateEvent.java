@@ -1,5 +1,8 @@
 package com.example.henriiv.queueapp20;
 
+//Klassen där en admin eller subuser kan skapa ett nytt event. Användaren fyller i följande info om eventet:
+//-
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

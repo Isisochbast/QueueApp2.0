@@ -1,5 +1,8 @@
 package com.example.henriiv.queueapp20;
 
+//Klassen där admins kan skapa nya events, redigera sina events, skapa nya subusers, redigera sina subusers
+//kontrollera sina kontouppgifter samt logga ut.
+
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

@@ -3,6 +3,8 @@
 
     <string name="slogan">Vi vill inte stå i kö, vi vill bara dricka öl!</string>
 
+    <string name="knappKlubb_text">Klubb</string>
+    <string name="knappPub_text">Äta</string>
     <string name="adminLogin">Admin login</string>
 
     <string name="login">Logga in</string>
@@ -56,4 +58,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hej</string>
+    <string name="title_activity_klubb">Klubb</string>
+    <string name="title_activity_pub">Pub</string>
 </resources>

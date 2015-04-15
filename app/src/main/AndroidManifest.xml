@@ -19,77 +19,78 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="AdminDashboard"
-            android:label="AdminDashboard">
+            android:name=".AdminDashboard"
+            android:label="AdminDashboard" >
         </activity>
-
         <activity
-            android:name="AdminLogin"
-            android:label="AdminLogin">
+            android:name=".AdminLogin"
+            android:label="AdminLogin" >
         </activity>
-
         <activity
-            android:name="CreateEvent"
-            android:label="CreateEvent">
+            android:name=".CreateEvent"
+            android:label="CreateEvent" >
         </activity>
-
         <activity
-            android:name="CreateSubuser"
-            android:label="CreateSubuser">
+            android:name=".CreateSubuser"
+            android:label="CreateSubuser" >
         </activity>
-
         <activity
-            android:name="EventList"
-            android:label="EventList">
+            android:name=".EventList"
+            android:label="EventList" >
         </activity>
-
         <activity
-            android:name="EventView"
-            android:label="EventView">
+            android:name=".EventView"
+            android:label="EventView" >
         </activity>
-
         <activity
-            android:name="ForgottenPassword"
-            android:label="ForgottenPassword">
+            android:name=".ForgottenPassword"
+            android:label="ForgottenPassword" >
         </activity>
-
         <activity
-            android:name="MyAccount"
-            android:label="MyAccount">
+            android:name=".MyAccount"
+            android:label="MyAccount" >
         </activity>
-
         <activity
-            android:name="SendPushNote"
-            android:label="SendPushNote">
+            android:name=".SendPushNote"
+            android:label="SendPushNote" >
         </activity>
-
         <activity
-            android:name="SubuserDashboard"
-            android:label="SubuserDashboard">
+            android:name=".SubuserDashboard"
+            android:label="SubuserDashboard" >
         </activity>
-
         <activity
-            android:name="SubuserList"
-            android:label="SubuserList">
+            android:name=".SubuserList"
+            android:label="SubuserList" >
         </activity>
-
         <activity
-            android:name="SubuserView"
-            android:label="SubuserView">
+            android:name=".SubuserView"
+            android:label="SubuserView" >
         </activity>
-
         <activity
-            android:name="UpdateEvent"
-            android:label="UpdateEvent">
+            android:name=".UpdateEvent"
+            android:label="UpdateEvent" >
         </activity>
-
         <activity
-            android:name="UpdateSubuser"
-            android:label="UpdateSubuser">
+            android:name=".UpdateSubuser"
+            android:label="UpdateSubuser" >
         </activity>
-
+        <activity
+            android:name=".Klubb"
+            android:label="@string/title_activity_klubb"
+            android:parentActivityName=".Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.henriiv.queueapp20.Start" />
+        </activity>
+        <activity
+            android:name=".Pub"
+            android:label="@string/title_activity_pub"
+            android:parentActivityName=".Start" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.henriiv.queueapp20.Start" />
+        </activity>
     </application>
 
 </manifest>
