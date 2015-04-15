@@ -1,13 +1,14 @@
 package com.example.henriiv.queueapp20;
 
+//Klass där användare välja att se vilka klubbar och pubar som händer idag,
+//och admins och subusers kan välja att logga in.
+
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import com.parse.Parse;
-import com.parse.ParseObject;
 
 
 public class Start extends ActionBarActivity implements OnClickListener {

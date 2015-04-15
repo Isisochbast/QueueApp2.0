@@ -1,5 +1,7 @@
 package com.example.henriiv.queueapp20;
 
+//Klass där admins och subusers kan ange sin email för att få ett nytt lösenord skickat till sig.
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

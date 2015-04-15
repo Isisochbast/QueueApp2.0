@@ -1,5 +1,7 @@
 package com.example.henriiv.queueapp20;
 
+//Klass där admins och subusers kan uppdatera informationen om ett specifikt event.
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

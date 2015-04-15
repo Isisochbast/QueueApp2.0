@@ -34,6 +34,13 @@
         android:layout_below="@id/inputPosition"
         android:hint="@string/inputEmail" />
 
+    <EditText
+        android:id="@+id/inputUserPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputEmail"
+        android:hint="@string/inputUserPassword" />
+
     <Button
         android:id="@+id/createNewSubuserButton"
         android:layout_width="fill_parent"

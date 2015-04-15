@@ -1,5 +1,7 @@
 package com.example.henriiv.queueapp20;
 
+//Sida där admins och subusers kan skicka push notes om specifika events.
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

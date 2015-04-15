@@ -1,5 +1,7 @@
 package com.example.henriiv.queueapp20;
 
+//Klass där en informationen om en specifik subuser kan uppdateras.
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

@@ -61,22 +61,42 @@
         android:layout_below="@id/inputStart"
         android:hint="@string/inputEnd" />
 
-
-    <EditText
+    <TextView
         android:id="@+id/repeat"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/inputEnd"
-        android:hint="@string/repeat" />
+        android:text="@string/repeat" />
+
+    <RadioGroup
+        android:id="@+id/repeatEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repeat"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioNo"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioYes" />
+    </RadioGroup>
 
     <EditText
         android:id="@+id/inputEventName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/repeat"
+        android:layout_below="@id/repeatEvent"
         android:hint="@string/inputEventName" />
 
-    //UPPREPA
+    //OM JA: HUR OFTA UPPREPA
 
     <EditText
         android:id="@+id/inputEventInfo"

@@ -1,5 +1,7 @@
 package com.example.henriiv.queueapp20;
 
+//Klassen där info om ett specifikt event visas. Eventet kan även raderas.
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

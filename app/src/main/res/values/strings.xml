@@ -31,7 +31,9 @@
     <string name="coverCharge">Inträde</string>
     <string name="inputStart">Börjar</string>
     <string name="inputEnd">Slutar</string>
-    <string name="repeat">Upprepa</string>
+    <string name="radioYes">Ja</string>
+    <string name="radioNo">Nej</string>
+    <string name="repeat">Upprepa?</string>
     <string name="inputEventInfo">Eventinfo</string>
     <string name="createNewEventButton">Spara nytt event!</string>
 
@@ -42,6 +44,7 @@
     <string name="inputNameSubuser">För- och efternamn</string>
     <string name="inputPosition">Position på nationen, ex. 1Q eller namn på pub/klubb</string>
     <string name="inputEmail">Email</string>
+    <string name="inputUserPassword">Lösenord</string>
     <string name="createNewSubuserButton">Skapa ny subuser!</string>
 
     <string name="currentUsername">Ditt användarnamn</string>
